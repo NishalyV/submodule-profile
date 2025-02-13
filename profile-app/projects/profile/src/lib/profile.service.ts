@@ -6,4 +6,7 @@ import { Injectable } from '@angular/core';
 export class ProfileService {
 
   constructor() { }
+  get() {
+    console.log('ProfileSERvice')
+  }
 }
